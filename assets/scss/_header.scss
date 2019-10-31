@@ -7,11 +7,12 @@ header nav.main_nav {
             .social_top__nav {
                   @include flexrowspacebetween;
                   max-width: 1200px;
+                  padding: 0 16px;
                   width: 100%;
                   margin: 0 auto;
             }
             form .form_group {
-                  
+                  padding: 0 16px;
                   input {
                         background: transparent;
                         padding: 5px;
@@ -52,14 +53,10 @@ header nav.main_nav {
             max-width: 1200px;
             padding: 13px 0;
       }
-      // .main_nav_top__wrapper logo {
-      // }
       .main_nav_top__wrapper ul {
             display: flex;
             list-style: none;
       }
-      // .main_nav_top__wrapper ul li {
-      // }
       .main_nav_top__wrapper ul a {
             position: relative;
             text-decoration: none;
@@ -70,6 +67,9 @@ header nav.main_nav {
             margin-left: 25px;
             text-transform: uppercase;
             font-weight: normal;
+      }
+      .main_nav_top__wrapper ul a .nav_text {
+            pointer-events: none;
       }
       .main_nav_top__wrapper ul li a span.slider_bottom {
             position: absolute;

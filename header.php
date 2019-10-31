@@ -5,7 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <?php wp_head(); ?>
-      <!-- css stylesheet -->
+<!-- css stylesheet -->
 </head>
 <body <?php body_class(); ?>>
       <header>
@@ -34,32 +34,32 @@
                               </a>
                               <ul id="main_nav_slider_border_bottom">
                                     <li>
-                                          <a href="<?php echo site_url(); ?>" class="link">
-                                                Home
+                                          <a href="<?php echo site_url(); ?>" class="nav_link">
+                                                <font class="nav_text">Home</font>
                                                 <span class="slider_bottom"></span>
                                           </a>
                                     </li>
-                                          <li>
-                                          <a href="<?php echo site_url('/disclaimer'); ?>" class="link">
-                                                Disclaimer
+                                    <li>
+                                          <a href="<?php echo site_url('/disclaimer'); ?>" class="nav_link">
+                                                <font class="nav_text">Disclaimer</font>
                                                 <span class="slider_bottom"></span>
                                           </a>
                                     </li>
-                                          <li>
-                                          <a href="<?php echo site_url('/blog'); ?>" class="link">
-                                                Blog
+                                    <li>
+                                          <a href="<?php echo site_url('/blog'); ?>" class="nav_link">
+                                                <font class="nav_text">Blog</font>
                                                 <span class="slider_bottom"></span>
                                           </a>
                                     </li>
-                                          <li>
-                                          <a href="<?php echo site_url('/contact'); ?>" class="link">
-                                                Contact
+                                    <li>
+                                          <a href="<?php echo site_url('/contact'); ?>" class="nav_link">
+                                                <font class="nav_text">Contact</font>
                                                 <span class="slider_bottom"></span>
                                           </a>
                                     </li>
-                                          <li>
-                                          <a href="<?php echo site_url('/about-me'); ?>" class="link">
-                                                About me
+                                    <li>
+                                          <a href="<?php echo site_url('/about-me'); ?>" class="nav_link">
+                                                <font class="nav_text">About me</font>
                                                 <span class="slider_bottom"></span>
                                           </a>
                                     </li>

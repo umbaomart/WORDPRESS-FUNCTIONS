@@ -18,4 +18,4 @@ THE WHILE LOOP                =>    used in every posts to loop into it
 USEFUL FUNCTION
 determine_locale();                 =>    return the country request
 get_stylesheet_uri();               =>    return the style.css location / url
-get_stylesheet_directory_uri();     =>    
+get_stylesheet_directory_uri();     =>    asdf

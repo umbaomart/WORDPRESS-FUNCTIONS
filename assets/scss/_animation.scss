@@ -1,0 +1,8 @@
+@keyframes slideInToLeft {
+      from {width: 0%;}
+      to {width: 100%;}
+}
+@keyframes slideOutToRight {
+      from {width: 100%; margin-left: 0%; }
+      to {width: 0%; margin-left: 100%; }
+}

@@ -1,0 +1,55 @@
+@mixin flexrowcenter {
+      display: flex;
+      align-content: center;
+      justify-content: center;;
+      align-items: center;
+}
+@mixin flexrowcenterwrap {
+      display: flex;
+      align-content: center;
+      justify-content: center;;
+      align-items: center;
+      flex-wrap: wrap;
+}
+@mixin flexcolcenter {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;;
+      align-items: center;
+}
+@mixin flexcolcenterwrap {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;;
+      align-items: center;
+      flex-wrap: wrap;
+}
+@mixin flexrowspacebetween {
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content: space-between;
+      align-items: center;
+}
+// reset a link
+@mixin resetlink {
+      text-decoration: none;
+      color: gray;
+      font-weight: 500;
+      font-size: 18px;
+      padding: 5px;
+}
+@mixin linkpaddingmargin {
+      margin: 1.2rem;
+}
+@mixin transition {
+      transition: .3s all ease-in-out;
+}
+@mixin resetlink {
+      background: #FFB3BF;
+      border: none;
+      text-decoration: none;
+      color: black;
+}

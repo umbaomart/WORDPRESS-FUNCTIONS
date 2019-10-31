@@ -1,0 +1,35 @@
+.section_disclaimer {
+      padding-top: 129px;
+      
+      .container_disclaimer {
+            background-image: linear-gradient(202deg, #FFD9E3 68%, rgba(0, 0, 0, 0) 50%);
+            padding-top: 50px;
+            
+            .disclaimer_content {
+                  max-width: 850px;
+                  margin: 0 auto;
+                  padding-bottom: 50px;
+            }
+            .title_wrapper {
+                  text-align: center;
+                  h1 {
+                        font-size: 50px;
+                        font-weight: 800;
+                        letter-spacing: 10px;
+                        text-transform: uppercase;
+                        -webkit-text-fill-color: rgba(0, 0, 0, 0); /* Will override color (regardless of order) */
+                        -webkit-text-stroke-width: 2px;
+                        -webkit-text-stroke-color: #B37D8B;
+                  }
+            }
+            p {
+                  font-size: 20px;
+                  color: #B37D8B;
+                  opacity: .7;
+                  line-height: 1.75;
+            }
+      }
+}
+.newsletter {
+      margin-top: 0px;
+}

@@ -1,0 +1,88 @@
+main {
+      width: 100%;
+      .section_one {
+            background: #FFECF1;
+            height: 100vh;
+            .hero_container {
+                  height: 100%;
+                  max-width: 925px;
+                  margin: 0 auto;
+                  padding-top: 70px;
+                  @include flexrowspacebetween;
+
+                  .hero_content_left {
+                        max-width: 560px;
+                        .left_content_top {
+                              display: flex;
+                              margin-bottom: 30px;
+                        }
+                        .vertical_ui {
+                              width: 10px;
+                              margin-right: 18px;
+                              background: #FFB3BF;
+                        }
+                        h1 {
+                              font-size: 40px;
+                              font-weight: normal;
+                              color: #6D6D6D;
+                        }
+                        .subtitle {
+                              display: block;
+                              font-size: 25px;
+                              font-weight: 300;
+                              font-family: 'Roboto', sans-serif;
+                              text-transform: capitalize;
+                        }
+                        .left_content_bottom {
+                              h2 {
+                                    font-size: 38px;
+                                    font-weight: 400;
+                                    color: #6D6D6D;
+                                    opacity: .9;
+                              }
+                              p {
+                                    font-size: 19px; 
+                                    font-weight: 300;
+                                    opacity: .5;
+                              }
+                        }
+                  }
+                  .hero_content_right {
+                        margin-top: 50px;
+                        flex: 1;
+                        position: relative;
+                        @include flexcolcenter;
+
+                        .background_shape {
+                              position: absolute;
+                              &:first-child {
+                                    transform: translateX(-50px) translateY(-190px);
+                              }
+                              &:nth-child(2) {
+                                    transform: translateX(75px) translateY(-138px);
+                              }
+                              &:nth-child(3) {
+                                    transform: translateX(190px) translateY(-175px);
+                              }
+                              &:nth-child(4) {
+                                    transform: translateX(164px) translateY(-30px);
+                              }
+                        }
+                        .right_content_prof {
+                              position: relative;
+                              margin-bottom: 22px;
+                        }
+                        .hero_btn {
+                              @include resetlink;
+                              padding: 15px 50px;
+                              display: block;
+                              border-radius: 5px;
+                              text-transform: uppercase;
+                              font-weight: 800;
+                              color: white;
+                              font-size: 16px;
+                        }
+                  }
+            }
+      }
+}

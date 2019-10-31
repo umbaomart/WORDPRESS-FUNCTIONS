@@ -1,0 +1,26 @@
+footer {
+      background: #FFECF1;
+      nav ul {
+            margin: 0;
+            list-style: none;
+            background: #FFECF1;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            padding: 28px;
+
+            li a {
+                  @include resetlink;
+                  background: none;
+                  color: #6D6D6D;
+                  text-transform: uppercase;
+                  opacity: .6;
+                  font-weight: 500;
+                  margin-right: 25px;
+                  &:hover {
+
+                  }
+            }
+      }
+}
